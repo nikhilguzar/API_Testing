@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testing.TestScripts.TC1_PostRequest"/>
+      <class name="org.testing.TestScripts.TC2_GetRequest"/>
+      <class name="org.testing.TestScripts.TC3_GetAllRecords"/>
+      <class name="org.testing.TestScripts.TC4_PutRequest"/>
+      <class name="org.testing.TestScripts.TC5_DeleteRequest"/>
+      <class name="org.testing.TestScripts.TC6_EMP_GetAll"/>
+      <class name="org.testing.TestScripts.TC9_Get_EMP"/>
+      <class name="org.testing.TestScripts.TC10_Delete_EMP"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

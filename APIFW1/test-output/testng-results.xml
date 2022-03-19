@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7223" started-at="2022-03-12T11:56:01 IST" finished-at="2022-03-12T11:56:08 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7223" started-at="2022-03-12T11:56:01 IST" finished-at="2022-03-12T11:56:08 IST">
+      <class name="org.testing.TestScripts.TC4_PutRequest">
+        <test-method status="PASS" signature="TC4()[pri:0, instance:org.testing.TestScripts.TC4_PutRequest@a38d7a3]" name="TC4" duration-ms="50" started-at="2022-03-12T11:56:04 IST" finished-at="2022-03-12T11:56:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+      </class> <!-- org.testing.TestScripts.TC4_PutRequest -->
+      <class name="org.testing.TestScripts.TC6_EMP_GetAll">
+        <test-method status="PASS" signature="TC6()[pri:0, instance:org.testing.TestScripts.TC6_EMP_GetAll@63440df3]" name="TC6" duration-ms="1763" started-at="2022-03-12T11:56:04 IST" finished-at="2022-03-12T11:56:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+      </class> <!-- org.testing.TestScripts.TC6_EMP_GetAll -->
+      <class name="org.testing.TestScripts.TC9_Get_EMP">
+        <test-method status="PASS" signature="TC9()[pri:0, instance:org.testing.TestScripts.TC9_Get_EMP@3aeaafa6]" name="TC9" duration-ms="1305" started-at="2022-03-12T11:56:06 IST" finished-at="2022-03-12T11:56:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9 -->
+      </class> <!-- org.testing.TestScripts.TC9_Get_EMP -->
+      <class name="org.testing.TestScripts.TC1_PostRequest">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:org.testing.TestScripts.TC1_PostRequest@670b40af]" name="TC1" duration-ms="2722" started-at="2022-03-12T11:56:01 IST" finished-at="2022-03-12T11:56:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- org.testing.TestScripts.TC1_PostRequest -->
+      <class name="org.testing.TestScripts.TC10_Delete_EMP">
+        <test-method status="PASS" signature="TC10()[pri:0, instance:org.testing.TestScripts.TC10_Delete_EMP@76a3e297]" name="TC10" duration-ms="1068" started-at="2022-03-12T11:56:07 IST" finished-at="2022-03-12T11:56:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10 -->
+      </class> <!-- org.testing.TestScripts.TC10_Delete_EMP -->
+      <class name="org.testing.TestScripts.TC5_DeleteRequest">
+        <test-method status="PASS" signature="TC5()[pri:0, instance:org.testing.TestScripts.TC5_DeleteRequest@77f99a05]" name="TC5" duration-ms="65" started-at="2022-03-12T11:56:04 IST" finished-at="2022-03-12T11:56:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+      </class> <!-- org.testing.TestScripts.TC5_DeleteRequest -->
+      <class name="org.testing.TestScripts.TC3_GetAllRecords">
+        <test-method status="PASS" signature="TC3()[pri:0, instance:org.testing.TestScripts.TC3_GetAllRecords@1a3869f4]" name="TC3" duration-ms="65" started-at="2022-03-12T11:56:04 IST" finished-at="2022-03-12T11:56:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+      </class> <!-- org.testing.TestScripts.TC3_GetAllRecords -->
+      <class name="org.testing.TestScripts.TC2_GetRequest">
+        <test-method status="PASS" signature="TC2()[pri:0, instance:org.testing.TestScripts.TC2_GetRequest@77ec78b9]" name="TC2" duration-ms="95" started-at="2022-03-12T11:56:04 IST" finished-at="2022-03-12T11:56:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+      </class> <!-- org.testing.TestScripts.TC2_GetRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
