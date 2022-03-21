@@ -25,8 +25,8 @@ public class TC1_PostRequest
 	public  void TC1() throws IOException
 	{
 		
-        Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");  
-        String body = LoadJsonFile.handleJson("../APIFW/src/test/java/org/testing/resources/bodyData.json");
+        Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");  
+        String body = LoadJsonFile.handleJson("../APIFW1/src/test/java/org/testing/resources/bodyData.json");
         body =JsonVariableReplacement.jsonReplace(body, "id", RandomNumberGeneration.generateRandom());   
         
         
