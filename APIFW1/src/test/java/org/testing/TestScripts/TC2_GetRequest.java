@@ -19,7 +19,7 @@ public class TC2_GetRequest
 	public void TC2() throws IOException
 	{
 		
-		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");
+		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");
 		HTTPMethods http = new HTTPMethods(p);
 		Response res =http.GetMethod("QA_URI_Managers", TC1_PostRequest.RespIdValue);
 		System.out.println("**************Testcase 2************");
