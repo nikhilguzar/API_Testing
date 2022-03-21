@@ -15,7 +15,7 @@ public class TC8_GetAll_EMP
 	public void TC8() throws IOException
 	{
 		
-		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");
+		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");
 		HTTPMethods http = new HTTPMethods(p);
 		Response res = http.GetAllMethod("QA_URI_EMP_GET_ALL");
 		System.out.println("***********Testcase 8************");

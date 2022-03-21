@@ -17,8 +17,8 @@ public class TC4_PutRequest
     @Test
 	public void TC4() throws IOException
 	{
-		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");
-		String body = LoadJsonFile.handleJson("../APIFW/src/test/java/org/testing/resources/updateBodyData.json");
+		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");
+		String body = LoadJsonFile.handleJson("../APIFW1/src/test/java/org/testing/resources/updateBodyData.json");
 		body =JsonVariableReplacement.jsonReplace(body, "id",TC1_PostRequest.RespIdValue );
 		
 		HTTPMethods http = new HTTPMethods(p);

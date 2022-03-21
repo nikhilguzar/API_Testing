@@ -15,7 +15,7 @@ public class TC10_Delete_EMP
 	@Test
 	public void TC10() throws IOException
 	{
-		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");
+		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");
 		HTTPMethods http = new HTTPMethods(p);
 		Response res =http.DeleteMethod("QA_URI_EMP_DEL","1");
 		System.out.println("**************Testcase 10************");

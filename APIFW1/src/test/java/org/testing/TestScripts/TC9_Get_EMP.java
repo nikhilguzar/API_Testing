@@ -16,7 +16,7 @@ public class TC9_Get_EMP
 	public void TC9() throws IOException
 	{
 		
-		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");
+		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");
 		HTTPMethods http = new HTTPMethods(p);
 		Response res =http.GetMethod("QA_URI_EMP_GET","1");
 		System.out.println("**************Testcase 9************");

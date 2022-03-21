@@ -18,8 +18,8 @@ public class TC7_Post_EMP
 	public  void TC7() throws IOException
 	{
 		
-        Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");  
-        String body = LoadJsonFile.handleJson("../APIFW/src/test/java/org/testing/resources/EmpPost.json");
+        Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");  
+        String body = LoadJsonFile.handleJson("../APIFW1/src/test/java/org/testing/resources/EmpPost.json");
         //body =JsonVariableReplacement.jsonReplace(body, "id", RandomNumberGeneration.generateRandom());   
         
         

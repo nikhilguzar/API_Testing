@@ -15,7 +15,7 @@ public class TC5_DeleteRequest
 	@Test
 	public void TC5() throws IOException
 	{
-		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");
+		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");
 		HTTPMethods http = new HTTPMethods(p);
 		Response res =http.DeleteMethod("QA_URI_Managers", TC1_PostRequest.RespIdValue);
 		System.out.println("**************Testcase 5************");

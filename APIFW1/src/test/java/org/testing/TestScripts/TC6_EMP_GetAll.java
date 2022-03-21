@@ -16,7 +16,7 @@ public class TC6_EMP_GetAll
 	public void TC6() throws IOException
 	{
 		
-		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");
+		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");
 		HTTPMethods http = new HTTPMethods(p);
 		Response res = http.GetMethod("QA_URI_EMPLOYEE", 10, 1001);
 		System.out.println("***********Testcase 6************");

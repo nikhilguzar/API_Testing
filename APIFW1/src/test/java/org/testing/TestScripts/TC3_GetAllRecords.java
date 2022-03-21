@@ -17,7 +17,7 @@ public class TC3_GetAllRecords
 	public void TC3() throws IOException
 	{
 		
-		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW/URI.properties");
+		Properties p = LoadPropertiesFile.handlePropertyFile("../APIFW1/URI.properties");
 		HTTPMethods http = new HTTPMethods(p);
 		Response res = http.GetAllMethod("QA_URI_Managers");
 		System.out.println("***********Testcase 3************");
